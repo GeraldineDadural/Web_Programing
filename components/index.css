@@ -5,7 +5,7 @@ h1{
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 38px;
-    left: 30px;
+    left: 50px;
     top: 10px;
     position: absolute;
 }
@@ -71,7 +71,7 @@ h2{
 h3{
     position: absolute;
     bottom: 190px;
-    left: 80px;
+    left: 120px;
     color: aliceblue;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -93,7 +93,7 @@ h5{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#ass, #acts, #pro, #more, #tb1, #ss1, #fb1, #ccs1,#move1, #loop1{
+#ass, #acts, #pro, #more, #tb1, #ss1, #fb1, #ccs1,#move1, #loop1, #loopy1{
     padding: 290px 350px;
     background-color: transparent;
     border-style: solid;
@@ -118,7 +118,7 @@ h6{
     width: 100%;
     left: 0px;
 }
-#assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x{
+#assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x, #loopy1x{
     position: absolute;
     width: 60px;
     height: 60px;
@@ -201,6 +201,18 @@ h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
 }
+#loopy{
+    position: absolute;
+    width: 360px;
+    height: 70px;
+    font-size: 40px;
+    text-decoration: underline;
+    border: none;
+    top: 460px;
+    left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
 #tb:hover{
     font-size: 45px;
     background-color: transparent;
@@ -225,6 +237,10 @@ h6{
     background-color: transparent;
 }
 #loop:hover{
+    font-size: 45px;
+    background-color: transparent;
+}
+#loopy:hover{
     font-size: 45px;
     background-color: transparent;
 }
@@ -276,6 +292,12 @@ p{
     left: 40%;   
 }
 @media all and (max-width: 394px){
+    body{
+        width: 393px;
+        background: #65c9ff;
+        left: 0%;
+        background-size: cover;
+    }
 
     h1{
         position: absolute;
@@ -290,7 +312,7 @@ p{
     .container{
         position: absolute;
         top: 170px;
-        left:0px;
+        left:20%;
         justify-content: space-around;
         align-items: center;
         height: 50px;
@@ -311,7 +333,7 @@ p{
     hr{
         position: absolute;
         top: 150px;
-        width: 520px;
+        width: 393px;
     }
     .profile{
         padding: 40px 190px;
@@ -367,8 +389,8 @@ p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
-    #ass, #acts, #pro, #more, #tb1, #ss1, #fb1, #ccs1,#move1, #loop1{
-        padding: 200px 130px;
+    #ass, #acts, #pro, #more, #tb1, #ss1, #fb1, #ccs1,#move1, #loop1, #loopy1{
+        padding: 210px 130px;
         background-color: transparent;
         border-style: solid;
         border-color: aliceblue;
@@ -392,7 +414,7 @@ p{
         width: 100%;
         left: 0px;
     }
-    #assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x{
+    #assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x, #loopyx{
         position: absolute;
         width: 30px;
         height: 30px;
@@ -498,6 +520,18 @@ p{
         text-decoration: underline;
         border: none;
         top: 300px;
+        left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+    }
+    #loopy{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        font-size: 30px;
+        text-decoration: underline;
+        border: none;
+        top: 350px;
         left: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left;
