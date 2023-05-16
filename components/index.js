@@ -128,6 +128,25 @@ function hide16(){
     document.getElementById("move1").style.display = "none";
 }
 
+function show17(){
+    document.getElementById("loopy1").style.display = "block";
+    document.getElementById("loop1").style.display = "none";
+    document.getElementById("ccs1").style.display = "none";
+    document.getElementById("ass").style.display = "none";
+    document.getElementById("acts").style.display = "none";
+    document.getElementById("pro").style.display = "none";  
+    document.getElementById("move1").style.display = "none";
+}
+function hide17(){
+    document.getElementById("loopy1").style.display = "none";
+    document.getElementById("loop1").style.display = "none";
+    document.getElementById("ccs1").style.display = "none";
+    document.getElementById("ass").style.display = "block";
+    document.getElementById("tb1").style.display = "none";
+    document.getElementById("pro1").style.display = "none";
+    document.getElementById("move1").style.display = "none";
+}
+
 
 function show21(){
     document.getElementById("ass").style.display = "block";
