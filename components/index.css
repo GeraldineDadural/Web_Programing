@@ -291,7 +291,7 @@ p{
     top: 40%;
     left: 40%;   
 }
-@media all and (max-width: 394px){
+@media all and (max-width: 444px){
     body{
         width: 393px;
         background: #65c9ff;
@@ -300,11 +300,11 @@ p{
     }
 
     h1{
-        position: absolute;
+        position: relative;
         color: aliceblue;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
-        left: 60px;
+        left: 30%;
         top: 9px;
         
     }
@@ -312,11 +312,11 @@ p{
     .container{
         position: absolute;
         top: 170px;
-        left:20%;
+        left: 50%;
         justify-content: space-around;
         align-items: center;
         height: 50px;
-        width: 550px;
+        width: 200px;
        
     }
     button{
@@ -334,6 +334,7 @@ p{
         position: absolute;
         top: 150px;
         width: 393px;
+        display: none;
     }
     .profile{
         padding: 40px 190px;
@@ -342,7 +343,7 @@ p{
         border-color: aliceblue;
         position: absolute;
         top: 70px;
-        left: 5px;
+        left: 25%;
         border-radius: 20px;
     }
     #img1{
@@ -396,14 +397,15 @@ p{
         border-color: aliceblue;
         position: absolute;
         top: 220px;
-        left: 20px;
+        left: 40%;
         border-radius: 20px;
         display: none;
+        overflow: hidden;
     }
     h6{
         position: absolute;
         top: -40px;
-        left: 100px;
+        left: 20%;
         color: aliceblue;
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -414,7 +416,7 @@ p{
         width: 100%;
         left: 0px;
     }
-    #assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x, #loopy1x{
+    #assx, #actsx, #prox, #tb1x, #ss1x, #fb1x, #ccs1x, #move1x, #morex, #loop1x, #loopyx{
         position: absolute;
         width: 30px;
         height: 30px;
@@ -426,7 +428,7 @@ p{
     #abc{
         background-color: rgba(240, 248, 255, 0.601);
         overflow-y: scroll;
-       padding: 80px 167px;
+       padding: 100px 171px;
         position: absolute;
         top: 40px;
         left: -.5px;    
